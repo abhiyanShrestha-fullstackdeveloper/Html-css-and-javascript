@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image map</title>
+</head>
+<body>
+    <!--
+    rect - defines a rectangular region
+    circle - defines a circular region
+    poly - defines a polygonal region
+    default - defines the entire region
+    -->
+    <img src="image/Ai.jpeg" alt="ai" usemap="ai map">
+
+    <map name="ai map">
+        <area shape="rect" coords="34,44,270,350" alt="computer" href="computer.html">
+        <area shape="rect" coords="290,172,333,250" alt="phone" href="phone.html">
+        <area shape="circle" coords="337,300,44" alt="coffee" href="coffee.html">
+    </map>
+
+</body>
+</html>
